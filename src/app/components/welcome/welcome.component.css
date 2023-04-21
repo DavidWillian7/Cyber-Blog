@@ -1,4 +1,4 @@
-.teste{
+.container{
     width: 95%;
     text-align: center;
     background-color: #010626;
@@ -24,7 +24,7 @@ p{
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    .teste{
+    .container{
         width: 80%;
         padding: 10px;
     }
@@ -40,7 +40,7 @@ p{
 }
 
 @media screen and (min-width: 992px){
-    .teste{
+    .container{
         width: 950px;
         padding: 10px;
     }
