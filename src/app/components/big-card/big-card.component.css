@@ -1,0 +1,106 @@
+.container{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #010626;
+    border-radius: 10px;
+}
+
+.box-photo{
+    background-color: #010626;
+}
+
+.photo{
+    width: 100%;
+    max-height: 190px;
+    border-radius: 15px;
+}
+
+.box-text{
+    align-items: center;
+    margin: 5px 10px;
+    background-color: #010626;
+}
+
+.title{
+    color: #D90DA2;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.box-text > p{
+    background-color: #010626;
+    text-indent: 7px;
+}
+
+a{
+    background-color: #010626;
+    text-decoration: none;
+}
+
+.box-text > p > a{
+    font-size: 11px;
+    color: rgb(184, 181, 181);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .photo{
+        max-height: 240px;
+    }
+
+    .box-text{
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .box-text > p{
+        text-indent: 15px;
+    }
+
+    .box-text > p > a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 950px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .photo{
+        max-height: 260px;
+    }
+
+    .box-text{
+        width: 60%;
+        padding: 0 20px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .box-text > p{
+        text-indent: 15px;
+    }
+
+    .box-text > p > a{
+        font-size: 13px;
+    }
+}
