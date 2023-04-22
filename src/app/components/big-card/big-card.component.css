@@ -26,7 +26,8 @@
 }
 
 .title{
-    color: #D90DA2;
+    color: #ff00de;
+    text-shadow: 0 0 10px #ff00de, 0 0 3px;
     font-size: 16px;
     margin-bottom: 5px;
     text-decoration: none;

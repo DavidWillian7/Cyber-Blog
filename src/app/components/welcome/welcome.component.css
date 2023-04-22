@@ -10,7 +10,8 @@
 h1{
     font-size: 15px;
     padding: 10px;
-    color: #D90DA2;
+    color: #00d9ff;
+    text-shadow: 0 0 10px #00d9ff, 0 0 3px;
     background-color: #010626;
 }
 
