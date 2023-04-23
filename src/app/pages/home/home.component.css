@@ -1,3 +1,7 @@
+main{
+    margin-bottom: 40px;
+}
+
 .small-articles{
     max-width: 1200px;
     margin: 30px auto;
@@ -5,4 +9,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+footer{
+    background-color: #010626;
+    padding: 10px;
 }
