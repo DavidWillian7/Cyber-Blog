@@ -1,5 +1,5 @@
 .container{
-    width: 250px;
+    max-width: 200px;
     margin: 5px;
     padding: 10px;
     background-color: #010626;
@@ -32,4 +32,10 @@
 a{
     background-color: #010626;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 250px;
+    }
 }
