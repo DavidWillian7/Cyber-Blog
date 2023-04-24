@@ -1,7 +1,10 @@
+.container, h1, p{
+    background-color: #010626;
+}
+
 .container{
     width: 95%;
     text-align: center;
-    background-color: #010626;
     border-radius: 10px;
     padding: 5px;
     margin: 30px auto;
@@ -12,7 +15,6 @@ h1{
     padding: 10px;
     color: #00d9ff;
     text-shadow: 0 0 10px #00d9ff, 0 0 3px;
-    background-color: #010626;
 }
 
 p{
@@ -21,7 +23,6 @@ p{
     padding-bottom: 5px;
     font-size: 13px;
     font-weight: bold;
-    background-color: #010626;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){

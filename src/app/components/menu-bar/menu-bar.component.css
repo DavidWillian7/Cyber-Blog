@@ -1,12 +1,14 @@
+.container, nav, nav > a{
+    background-color: #010626;
+}
+
 .container{
     padding: 5px;
-    background-color: #010626;
 }
 
 nav{
     margin: 5px auto;
     max-width: 1200px;
-    background-color: #010626;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -16,7 +18,6 @@ nav{
 
 nav > a{
     text-decoration: none;
-    background-color: #010626;
     font-weight: bold;
 }
 
