@@ -1,46 +1,43 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-
 <app-welcome></app-welcome>
 
 <main>
     <article>
         <app-big-card
-            photoCard="../../../assets/cyber-punk-city_640.jpg"
-            cardTitle="Titulo do post"
-            cardDescription="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet culpa asperiores minima laudantium rem explicabo nemo, omnis a repellat cupiditate maiores deserunt eum saepe hic amet debitis? Nostrum, vel impedit."
+            Id="{{ data[0].id }}"
+            photoCard="{{ data[0].photo }}"
+            cardTitle="{{ data[0].title}}"
+            cardDescription="{{ data[0].description }}"
             >
         </app-big-card>
     </article>
 
     <article class="small-articles">
         <app-small-card
-            photoCard="../../../assets/cyber-punk-city_640.jpg"
-            cardTitle="Titulo do post contendo tudo isso com frase completa"
+            Id="{{ data[1].id }}"
+            photoCard="{{ data[1].photo }}"
+            cardTitle="{{ data[1].title }}"
         >
         </app-small-card>
 
         <app-small-card
-            photoCard="../../../assets/cyber-punk-city_640.jpg"
-            cardTitle="Titulo do post contendo tudo isso com frase completa"
+            Id="{{ data[2].id }}"
+            photoCard="{{ data[2].photo }}"
+            cardTitle="{{ data[2].title }}"
         >
         </app-small-card>
 
         <app-small-card
-            photoCard="../../../assets/cyber-punk-city_640.jpg"
-            cardTitle="Titulo do post contendo tudo isso com frase completa"
+            Id="{{ data[3].id }}"
+            photoCard="{{ data[3].photo }}"
+            cardTitle="{{ data[3].title }}"
         >
         </app-small-card>
         
         <app-small-card
-            photoCard="../../../assets/cyber-punk-city_640.jpg"
-            cardTitle="Titulo do post contendo tudo isso com frase completa"
+            Id="{{ data[4].id }}"
+            photoCard="{{ data[4].photo }}"
+            cardTitle="{{ data[4].title }}"
         >
         </app-small-card>
     </article>
 </main>
-
-<footer>
-    <app-footer></app-footer>
-</footer>

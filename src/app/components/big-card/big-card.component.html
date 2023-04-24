@@ -1,10 +1,10 @@
 <div class="container">
     <div class="box-photo">
-        <a href="#"><img src="{{ photoCard }}" alt="cidade em um futuro cyberpunk com robôs pelas ruas" class="photo"></a>
+        <a [routerLink]="['content', Id]"><img src="{{ photoCard }}" alt="cidade em um futuro cyberpunk com robôs pelas ruas" class="photo"></a>
     </div>
 
     <div class="box-text">
-        <a href="#" class="title">{{ cardTitle }}</a>
-        <p><a href="#">{{ cardDescription }}</a></p>
+        <a [routerLink]="['content', Id]" class="title">{{ cardTitle }}</a>
+        <p><a [routerLink]="['content', Id]">{{ cardDescription }}</a></p>
     </div>
 </div>
