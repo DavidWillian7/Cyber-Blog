@@ -23,7 +23,11 @@ main{
 }
 
 .title{
+    padding: 0 25px;
+    text-align:center;
     font-size: 22px;
+    color: #ff00de;
+    text-shadow: 0 0 10px #ff00de, 0 0 3px;
 }
 
 .box-text{
