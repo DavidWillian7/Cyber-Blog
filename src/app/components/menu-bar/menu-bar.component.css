@@ -1,8 +1,5 @@
-.container, nav, nav > a{
-    background-color: #010626;
-}
-
 .container{
+    background-color: #010626;
     padding: 5px;
 }
 

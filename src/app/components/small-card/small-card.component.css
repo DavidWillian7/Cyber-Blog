@@ -1,12 +1,9 @@
-.container, .box-photo, .box-text, a{
-    background-color: #010626;
-}
-
 .container{
     max-width: 200px;
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
+    background-color: #010626;
 }
 
 .box-photo{

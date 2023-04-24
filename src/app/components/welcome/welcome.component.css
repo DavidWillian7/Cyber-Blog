@@ -1,13 +1,10 @@
-.container, h1, p{
-    background-color: #010626;
-}
-
 .container{
     width: 95%;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
     margin: 30px auto;
+    background-color: #010626;
 }
 
 h1{

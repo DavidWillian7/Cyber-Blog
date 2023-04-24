@@ -1,11 +1,9 @@
 p{
     font-size: 0.9em;
-    background-color: #010626;
     text-align: center;
 }
 
 p > a{
-    background-color: #010626;
     text-decoration: none;
     font-weight: bold;
 }

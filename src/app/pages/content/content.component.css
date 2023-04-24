@@ -1,7 +1,3 @@
-main, .box-photo, .box-photo > img, .title, .text{
-    background-color: #010626;
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -9,6 +5,7 @@ main{
     margin: 40px 20px;
     padding: 5px;
     border-radius: 10px;
+    background-color: #010626;
 } 
 
 .box-photo{
