@@ -30,6 +30,7 @@ main{
 }
 
 .box-text{
+    max-width: 900px;
     margin: 20px;
 }
 
