@@ -1,5 +1,5 @@
 # CyberBlog
-Este é um projeto simples de blog desenvolvido em Angular para o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO. O tema do blog é um futuro cyberpunk com a tecnologia impactando nocivamente esse futuro.
+Este é um projeto simples de blog desenvolvido em Angular para o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO. O tema do blog é um futuro cyberpunk, com a tecnologia impactando nocivamente esse futuro.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
@@ -7,19 +7,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 O blog possui duas páginas:
 * Home
 * Content
-A Home com menu de navegação, os posts e um footer. O content exibe o texto do post selecionado.
+<p>A Home com menu de navegação, os posts e um footer. O content exibe o texto do post selecionado.</p>
 
 ## Screenshots
 Abaixo estão alguns screenshots:
 
 ### Home
 <p align="center">
-<img src="src/assets/screen-shot-1.png" align="center">
+<img src="src/assets/screen-shot-home.png" align="center">
 </p>
 
 ### Content
 <p align="center">
-<img src="src/assets/screen-shot-2.png" align="center">
+<img src="src/assets/screen-shot-content.png" align="center">
 </p>
 
 ## Como executar o projeto
