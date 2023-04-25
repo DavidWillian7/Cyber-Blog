@@ -8,6 +8,6 @@
     </div>
     
     <div class="box-text">
-        <p class="text">{{ text }}</p>
+        <p class="text" *ngFor="let paragraph of text">{{ paragraph }}</p>
     </div>
 </main>

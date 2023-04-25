@@ -11,7 +11,7 @@ export class ContentComponent {
   private id: string | null = "0";
   photo: string = "";
   title: string = "";
-  text: string = "";
+  text: string[] = [""];
   
   constructor(private route:ActivatedRoute){}
 
@@ -28,6 +28,12 @@ export class ContentComponent {
     
     this.title = result.title;
     this.photo = result.photo;
-    this.text = result.text;
+    this.text = this.spliceText(result.text);
+  }
+
+  spliceText(text: string): string[]{
+    let paragraphs: string[];
+    paragraphs = text.split("<br>");
+    return paragraphs;
   }
 }

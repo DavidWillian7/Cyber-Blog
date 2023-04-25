@@ -37,8 +37,9 @@ main{
 
 .text{
     font-size: 15px;
-    text-indent: 10px;
+    text-indent: 15px;
     text-align: justify;
+    padding: 3px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
