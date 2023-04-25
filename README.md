@@ -1,27 +1,39 @@
 # CyberBlog
+Este é um projeto simples de blog desenvolvido em Angular para o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO. O tema do blog é um futuro cyberpunk com a tecnologia impactando nocivamente esse futuro.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-## Development server
+## Funcionalidades
+O blog possui duas páginas:
+* Home
+* Content
+A Home com menu de navegação, os posts e um footer. O content exibe o texto do post selecionado.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshots
+Abaixo estão alguns screenshots:
 
-## Code scaffolding
+### Home
+<p align="center">
+<img src="src/assets/screen-shot-1.png" align="center">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Content
+<p align="center">
+<img src="src/assets/screen-shot-2.png" align="center">
+</p>
 
-## Build
+## Tecnologias utilizadas
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como executar o projeto
+<ol>
+    <li>Clone este repositório em sua máquina local</li>
+    <li>Instale as dependências utilizando o comando `npm install`</li>
+    <li>Inicie o servidor local com o comando `ng serve`</li>
+    <li>Acesse o projeto em seu navegador, através da URL `http://localhost:4200`</li>
+</ol>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="center">Copyright © DavidWillian</p>
