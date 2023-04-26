@@ -25,9 +25,9 @@ Abaixo estão alguns screenshots:
 ## Como executar o projeto
 <ol>
     <li>Clone este repositório em sua máquina local</li>
-    <li>Instale as dependências utilizando o comando `npm install`</li>
-    <li>Inicie o servidor local com o comando `ng serve`</li>
-    <li>Acesse o projeto em seu navegador, através da URL `http://localhost:4200`</li>
+    <li>Instale as dependências utilizando o comando ```npm install```</li>
+    <li>Inicie o servidor local com o comando ```ng serve```</li>
+    <li>Acesse o projeto em seu navegador, através da URL ```http://localhost:4200```</li>
 </ol>
 
 ## Tecnologias utilizadas
